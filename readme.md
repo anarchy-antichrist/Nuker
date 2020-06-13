@@ -9,3 +9,6 @@ type node selfbot.js
 
 wait for it to login your account
 and there we have it. have fun nuking!
+
+# Notice
+Remember kids dont do drugs unless they are free
