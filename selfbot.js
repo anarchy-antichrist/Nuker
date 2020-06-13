@@ -1,6 +1,13 @@
-const ZeroDayz = require('zerodayz.js')
+const ZeroDayz = require('zerodayz.js')  // Discord Wrapper made by Antichrist
 const selfbot = new ZeroDayz.Client()
-const settings = require('settings.json')
+const settings = require('./settings.json')
+
+// Ready Event
+selfbot.on('ready', () => {
+    console.log(`Nuker online: ${selfbot.user.tag}`)
+    })
+
+// Message Event
 selfbot.on('message', msg => {
     if(msg.author.id === selfbot.user.id){
    const prefix = '*'
@@ -58,4 +65,5 @@ selfbot.on('message', msg => {
 }
 })
 
+//Login
 selfbot.login(settings.token)
