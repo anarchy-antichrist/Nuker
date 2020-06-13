@@ -1,0 +1,14 @@
+{
+  "name": "nuker",
+  "version": "1.0.2",
+  "description": "Ever wanted to nuke someones server without any effort? now you can!",
+  "main": "selfbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "antichrist",
+  "license": "ISC",
+  "dependencies": {
+    "zerodayz.js": "^11.6.2"
+  }
+}
